@@ -1,0 +1,15 @@
+PODS:
+  - lottie-ios (1.5.1)
+  - SVProgressHUD (2.1.2)
+
+DEPENDENCIES:
+  - lottie-ios (~> 1.5)
+  - SVProgressHUD (~> 2.1)
+
+SPEC CHECKSUMS:
+  lottie-ios: f680a7c4cb7a567ecf258fde0f967913aff111b8
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+
+PODFILE CHECKSUM: 6dd3935c4950898c3d054d6f6990971793c3d150
+
+COCOAPODS: 1.2.0

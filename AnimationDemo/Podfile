@@ -1,0 +1,10 @@
+platform :ios,'8.0'
+target 'AnimationDemo' do
+use_frameworks!
+
+pod 'lottie-ios', '~> 1.5'
+#pod 'OpenCV-iOS'
+pod 'SVProgressHUD', '~> 2.1'
+
+
+end

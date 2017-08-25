@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1504.82">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 20.0px; font: 14.0px 'PingFang SC'; color: #000000; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!doctype html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;head&gt;</span></p>
+<p class="p1"><span class="s1">&lt;title&gt;交易信息&lt;/title&gt;</span></p>
+<p class="p1"><span class="s1">&lt;meta charset="gbk"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"&gt;<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">    &lt;script type="text/javascript" src="http://cb365.wechater.cc:80/mobile/js/app.js"&gt;&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1">&lt;script type="text/javascript" src="http://cb365.wechater.cc:80/mobile/js/util.js"&gt;&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;link rel="stylesheet" type="text/css"  href="http://cb365.wechater.cc:80/mobile/css/kbCss/style.css"/&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;script type="text/javascript" src="http://cb365.wechater.cc:80/mobile/js/jquery.js"&gt;&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">&lt;body&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">&lt;div class="grey"&gt;&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;div class="gathering" &gt;</span></p>
+<p class="p1"><span class="s1">&lt;h1&gt;交易信息&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1">&lt;div class="blueBackground"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;span class="money"&gt;订单金额：&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;p style=" font-size:1.1rem;"&gt;￥&lt;span&gt;100.00&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;p class="bankCard" style="margin-top:18px;"&gt;请输入收款方信息：&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;form action="../ss/doPayCardInfo.do" name="FormPay" method="post"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;div class="xinXi"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;div class="smallBox"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;span&gt;开户银行：&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">&lt;img class="sanJiao" src="http://cb365.wechater.cc:80/mobile/images/kbImg/sanjiao.png"/&gt;</span></p>
+<p class="p1"><span class="s1">&lt;select id="bankId" name="bankId" style="background:#fff;"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;option value="onselect"&gt;请选择开户银行&lt;/option&gt;</span></p>
+<p class="p1"><span class="s1">&lt;option value="icbc"&gt;工商银行&lt;/option&gt;</span></p>
+<p class="p1"><span class="s1">&lt;option value="abc"&gt;农业银行&lt;/option&gt;</span></p>
+<p class="p1"><span class="s1">&lt;option  value="boc"&gt;中国银行&lt;/option&gt;</span></p>
+<p class="p1"><span class="s1">&lt;option  value="ccb"&gt;建设银行&lt;/option&gt;</span></p>
+<p class="p1"><span class="s1">&lt;option  value="bankcomm"&gt;交通银行&lt;/option&gt;</span></p>
+<p class="p1"><span class="s1">&lt;option value="cmb"&gt;招商银行&lt;/option&gt;</span></p>
+<p class="p1"><span class="s1">&lt;option value="psbc"&gt;邮政银行&lt;/option&gt;</span></p>
+<p class="p1"><span class="s1">&lt;option value="ecitic"&gt;中信银行&lt;/option&gt;</span></p>
+<p class="p1"><span class="s1">&lt;option value="pingan"&gt;平安银行&lt;/option&gt;</span></p>
+<p class="p1"><span class="s1">&lt;option value="cgbchina"&gt;广发银行&lt;/option&gt;</span></p>
+<p class="p1"><span class="s1">&lt;option value="spdb"&gt;浦发银行&lt;/option&gt;</span></p>
+<p class="p1"><span class="s1">&lt;option value="cib"&gt;兴业银行&lt;/option&gt;</span></p>
+<p class="p1"><span class="s1">&lt;option value="cebbank"&gt;光大银行&lt;/option&gt;</span></p>
+<p class="p1"><span class="s1">&lt;option value="hxb"&gt;华夏银行&lt;/option&gt;</span></p>
+<p class="p1"><span class="s1">                       &lt;option value="cmbc"&gt;民生银行&lt;/option&gt;  <span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">&lt;/select&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;div class="smallBox"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;span&gt;银行卡号：&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">&lt;input maxlength="20"  id="bankAcctId" name="bankAcctId" type="text" placeholder="请输入银行卡号"/&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;div class="smallBox"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;span&gt;持卡人姓名：&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">&lt;input id="bankAcctName" name="bankAcctName"  type="text" placeholder="请输入持卡人姓名"/&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;div class="smallBox"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;span&gt;有效期：&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">&lt;input id="expDate" name="expDate" type="text" placeholder="格式为月/年,如:5523"/&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;div class="smallBox"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;span&gt;CVV2：&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">&lt;input id="cvv2" name="cvv2"  type="password" placeholder="请输入CVV2,卡背面签名栏后三位"/&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;div class="smallBox"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;span&gt;证件号：&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">&lt;input  maxlength="18" id="legalCertNo" name="legalCertNo" type="text" placeholder="请输入身份证号"/&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;div class="smallBox" style=" border-bottom:none;"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;span&gt;银行预留手机号：&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">&lt;input id="bankMobile" name="bankMobile" onKeyUp="value=value.replace(/[^\d.]/g,'')" maxlength="11" type="tel" placeholder="请输入银行预留手机号"/&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">          <span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">&lt;div class="getXinxi"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;label&gt;&lt;input type="checkbox" id="remember" name="remember" value="Y" checked&gt;记住卡信息，下次可一键快捷支付&lt;/label&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">         <span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">         <span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">          &lt;input type="hidden" id="merId" name="merId" value="M1608170092354"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;input type="hidden" id="transSeqId" name="transSeqId" value="P17080114165725389"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;input type="hidden" id="credNo" name="credNo" value="141650"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;input type="hidden" id="paySrc" name="paySrc" value="nor"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;input type="hidden" id="gateId" name="gateId" value="payeco"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;input type="hidden" id="sysId" name="sysId" value="2000000122"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;input type="hidden" id="appId" name="appId" value=""&gt;</span></p>
+<p class="p1"><span class="s1">         <span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">&lt;input  onclick="nextPhone()" class="zhiFu" type="button" value="确认支付" style="background: #2bc528;"/&gt;</span></p>
+<p class="p1"><span class="s1">     &lt;/form&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;p class="tiShi"&gt;提醒：您正在进行一笔交易,请认真核实并且确定银行卡信息不能透露给别人！&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">&lt;!--弹出窗口--&gt;</span></p>
+<p class="p1"><span class="s1">&lt;div class="popdialog" id="showMsg"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;div class="whiteBackgrund"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;h3&gt;提示&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p &gt;&lt;span style="display:inline-block; color:#000;"&gt;..&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;a href="#" class="closed" onClick="closeWin('showMsg')"&gt;确定&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;div id="waiting_form" class="win_form_div"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;img src="http://cb365.wechater.cc:80/mobile/images/loading1.gif"/&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p style="color:#fff;"&gt;正在处理，请耐心等待...&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;div id="loading_form" class="win_form_div" style="top;0;"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;img src="http://cb365.wechater.cc:80/mobile/images/loading1.gif"/&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;p style="color:#fff; text-align:center;"&gt;正在支付，请耐心等待...&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">&lt;script type="text/javascript"&gt;</span></p>
+<p class="p1"><span class="s1">function showMsg(msg){</span></p>
+<p class="p1"><span class="s1">if(msg){</span></p>
+<p class="p1"><span class="s1">$("#showMsg .whiteBackgrund p span").html(msg);</span></p>
+<p class="p1"><span class="s1">$("#showMsg").show();</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p1"><span class="s1">function nextPhone(){</span></p>
+<p class="p1"><span class="s1">var bankId = document.getElementById("bankId");</span></p>
+<p class="p1"><span class="s1">      var bankAcctId = document.getElementById("bankAcctId");</span></p>
+<p class="p1"><span class="s1">      var bankAcctName = document.getElementById("bankAcctName");</span></p>
+<p class="p1"><span class="s1">      var cvv2 = document.getElementById("cvv2");</span></p>
+<p class="p1"><span class="s1">      var expDate = document.getElementById("expDate");</span></p>
+<p class="p1"><span class="s1">      var legalCertNo = document.getElementById("legalCertNo");</span></p>
+<p class="p1"><span class="s1">      var bankMobile = document.getElementById("bankMobile");</span></p>
+<p class="p1"><span class="s1">      if(bankId.value.trim()=="" || bankId.value.trim()=="onselect"){</span></p>
+<p class="p1"><span class="s1">             showMsg("请选择开户银行");</span></p>
+<p class="p1"><span class="s1">return false;</span></p>
+<p class="p1"><span class="s1">      }</span></p>
+<p class="p1"><span class="s1">if (bankAcctId.value.trim()==""){</span></p>
+<p class="p1"><span class="s1">showMsg("请输入银行卡号");</span></p>
+<p class="p1"><span class="s1">return false;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p1"><span class="s1">if(!isNum(bankAcctId.value)){</span></p>
+<p class="p1"><span class="s1">showMsg("银行卡号格式不正确");</span></p>
+<p class="p1"><span class="s1">return false;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p1"><span class="s1">if (bankAcctName.value.trim()==""){</span></p>
+<p class="p1"><span class="s1">showMsg("请输入持卡人姓名");</span></p>
+<p class="p1"><span class="s1">return false;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p1"><span class="s1">if (cvv2.value.trim()=="" || cvv2.value.length != 3){</span></p>
+<p class="p1"><span class="s1">showMsg("请输入CVV2,卡背后三位");</span></p>
+<p class="p1"><span class="s1">return false;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p1"><span class="s1">if(!isNum(cvv2.value)){</span></p>
+<p class="p1"><span class="s1">showMsg("CVV2号码格式不正确");</span></p>
+<p class="p1"><span class="s1">return false;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p1"><span class="s1">if(expDate.value.trim()=="" || expDate.value.length != 4){</span></p>
+<p class="p1"><span class="s1">showMsg("请输入信用卡有效期月/年，如：0518");</span></p>
+<p class="p1"><span class="s1">return false;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p1"><span class="s1">if(!isNum(expDate.value)){</span></p>
+<p class="p1"><span class="s1">showMsg("信用卡有效期格式不正确");</span></p>
+<p class="p1"><span class="s1">return false;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p1"><span class="s1">if (legalCertNo.value.trim()==""){</span></p>
+<p class="p1"><span class="s1">showMsg("请输入证件号");</span></p>
+<p class="p1"><span class="s1">return false;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p1"><span class="s1">if (bankMobile.value.trim()==""){</span></p>
+<p class="p1"><span class="s1">showMsg("请输入银行预留手机号");</span></p>
+<p class="p1"><span class="s1">return false;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p1"><span class="s1">if(!checkMp(bankMobile)){</span></p>
+<p class="p1"><span class="s1">showMsg("手机号格式不正确");</span></p>
+<p class="p1"><span class="s1">return false;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p1"><span class="s1">        </span></p>
+<p class="p1"><span class="s1">openWin("loading_form");</span></p>
+<p class="p1"><span class="s1">$(".zhiFu").attr("disabled", "disabled");</span></p>
+<p class="p1"><span class="s1">$(".zhiFu").css({"background":"#c9c9c9"});</span></p>
+<p class="p1"><span class="s1">document.forms[0].submit();</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+</body>
+</html>
