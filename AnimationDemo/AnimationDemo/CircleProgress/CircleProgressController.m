@@ -11,7 +11,7 @@
 
 @interface CircleProgressController ()
 
-@property (nonatomic, strong) CircleProgressView *progressView;
+@property (nonatomic, strong) CircleProgressView    *progressView;
 
 @end
 

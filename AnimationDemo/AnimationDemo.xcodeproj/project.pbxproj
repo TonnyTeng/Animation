@@ -22,7 +22,6 @@
 		061FB40C1EFBA65D00C141F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 061FB40B1EFBA65D00C141F6 /* AppDelegate.m */; };
 		061FB4141EFBA65D00C141F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 061FB4131EFBA65D00C141F6 /* Assets.xcassets */; };
 		061FB4171EFBA65D00C141F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 061FB4151EFBA65D00C141F6 /* LaunchScreen.storyboard */; };
-		061FB4201EFBA88400C141F6 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 061FB41F1EFBA88400C141F6 /* TableViewController.m */; };
 		061FB4241EFBBC9000C141F6 /* RadarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 061FB4231EFBBC9000C141F6 /* RadarController.m */; };
 		061FB4281EFBBF9D00C141F6 /* HeartbeatController.m in Sources */ = {isa = PBXBuildFile; fileRef = 061FB4271EFBBF9D00C141F6 /* HeartbeatController.m */; };
 		061FB42B1EFBC19C00C141F6 /* HeartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 061FB42A1EFBC19C00C141F6 /* HeartView.m */; };
@@ -34,7 +33,6 @@
 		0629A3741EFCE815001225F1 /* TransitionDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0629A3731EFCE815001225F1 /* TransitionDetailsController.m */; };
 		0629A3781EFCED7B001225F1 /* PopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0629A3771EFCED7B001225F1 /* PopAnimation.m */; };
 		0629A37B1EFCEDDE001225F1 /* PushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0629A37A1EFCEDDE001225F1 /* PushAnimation.m */; };
-		0629A37E1EFCEF34001225F1 /* XTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0629A37D1EFCEF34001225F1 /* XTViewController.m */; };
 		0629A3871EFCF6B2001225F1 /* SwipeInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0629A3861EFCF6B2001225F1 /* SwipeInteraction.m */; };
 		0629A38E1EFCF6BB001225F1 /* AnimationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0629A3891EFCF6BB001225F1 /* AnimationHelper.m */; };
 		0629A3931EFCF6E9001225F1 /* DismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0629A3921EFCF6E9001225F1 /* DismissAnimation.m */; };
@@ -50,6 +48,11 @@
 		06377C901F1E01FD004AB5BA /* ScanBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06377C8E1F1E01FD004AB5BA /* ScanBaseController.m */; };
 		06377C941F1E0663004AB5BA /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06377C931F1E0663004AB5BA /* ScanViewController.m */; };
 		0669C6DF1F46E983005798B3 /* ScanOpenCVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0669C6DE1F46E983005798B3 /* ScanOpenCVController.m */; };
+		067B796B1F6687BD0014064E /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067B79681F6687BD0014064E /* TableViewController.m */; };
+		067B796C1F6687BD0014064E /* XTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067B796A1F6687BD0014064E /* XTViewController.m */; };
+		067B79701F6687E90014064E /* NSString+XT.m in Sources */ = {isa = PBXBuildFile; fileRef = 067B796F1F6687E90014064E /* NSString+XT.m */; };
+		067B79731F6688430014064E /* UIView+XT.m in Sources */ = {isa = PBXBuildFile; fileRef = 067B79721F6688430014064E /* UIView+XT.m */; };
+		067B79761F668BC90014064E /* UIColor+XT.m in Sources */ = {isa = PBXBuildFile; fileRef = 067B79751F668BC90014064E /* UIColor+XT.m */; };
 		0696283B1F061F64006112E1 /* CustomKeyBoardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0696283A1F061F63006112E1 /* CustomKeyBoardController.m */; };
 		0696283F1F0622E3006112E1 /* CustomKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0696283E1F0622E3006112E1 /* CustomKeyBoardView.m */; };
 		06B076871F44478000F949A2 /* www.baidu.com 2.html in Resources */ = {isa = PBXBuildFile; fileRef = 06B076851F44478000F949A2 /* www.baidu.com 2.html */; };
@@ -129,7 +132,6 @@
 		0613E7101F0E0FAA00CD6E5D /* OfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfoView.m; sourceTree = "<group>"; };
 		0613E7121F0E1E2400CD6E5D /* CoreMotionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreMotionView.h; sourceTree = "<group>"; };
 		0613E7131F0E1E2400CD6E5D /* CoreMotionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreMotionView.m; sourceTree = "<group>"; };
-		061C379B1F1EF52A00B5E62C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		061C37B21F1F419400B5E62C /* FaceDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceDetector.h; sourceTree = "<group>"; };
 		061C37B31F1F419400B5E62C /* FaceDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceDetector.m; sourceTree = "<group>"; };
 		061C37B41F1F419400B5E62C /* FaceDetectorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceDetectorController.h; sourceTree = "<group>"; };
@@ -143,8 +145,6 @@
 		061FB4131EFBA65D00C141F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		061FB4161EFBA65D00C141F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		061FB4181EFBA65D00C141F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		061FB41E1EFBA88400C141F6 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
-		061FB41F1EFBA88400C141F6 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		061FB4221EFBBC9000C141F6 /* RadarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarController.h; sourceTree = "<group>"; };
 		061FB4231EFBBC9000C141F6 /* RadarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarController.m; sourceTree = "<group>"; };
 		061FB4261EFBBF9D00C141F6 /* HeartbeatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartbeatController.h; sourceTree = "<group>"; };
@@ -167,8 +167,6 @@
 		0629A3771EFCED7B001225F1 /* PopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopAnimation.m; sourceTree = "<group>"; };
 		0629A3791EFCEDDE001225F1 /* PushAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushAnimation.h; sourceTree = "<group>"; };
 		0629A37A1EFCEDDE001225F1 /* PushAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushAnimation.m; sourceTree = "<group>"; };
-		0629A37C1EFCEF34001225F1 /* XTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTViewController.h; sourceTree = "<group>"; };
-		0629A37D1EFCEF34001225F1 /* XTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTViewController.m; sourceTree = "<group>"; };
 		0629A3851EFCF6B2001225F1 /* SwipeInteraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeInteraction.h; sourceTree = "<group>"; };
 		0629A3861EFCF6B2001225F1 /* SwipeInteraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeInteraction.m; sourceTree = "<group>"; };
 		0629A3881EFCF6BB001225F1 /* AnimationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationHelper.h; sourceTree = "<group>"; };
@@ -198,6 +196,17 @@
 		06377C931F1E0663004AB5BA /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
 		0669C6DD1F46E983005798B3 /* ScanOpenCVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanOpenCVController.h; sourceTree = "<group>"; };
 		0669C6DE1F46E983005798B3 /* ScanOpenCVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanOpenCVController.m; sourceTree = "<group>"; };
+		067B79661F6687BD0014064E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		067B79671F6687BD0014064E /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		067B79681F6687BD0014064E /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		067B79691F6687BD0014064E /* XTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTViewController.h; sourceTree = "<group>"; };
+		067B796A1F6687BD0014064E /* XTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTViewController.m; sourceTree = "<group>"; };
+		067B796E1F6687E90014064E /* NSString+XT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XT.h"; sourceTree = "<group>"; };
+		067B796F1F6687E90014064E /* NSString+XT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XT.m"; sourceTree = "<group>"; };
+		067B79711F6688430014064E /* UIView+XT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XT.h"; sourceTree = "<group>"; };
+		067B79721F6688430014064E /* UIView+XT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XT.m"; sourceTree = "<group>"; };
+		067B79741F668BC90014064E /* UIColor+XT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XT.h"; sourceTree = "<group>"; };
+		067B79751F668BC90014064E /* UIColor+XT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XT.m"; sourceTree = "<group>"; };
 		069628391F061F63006112E1 /* CustomKeyBoardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomKeyBoardController.h; sourceTree = "<group>"; };
 		0696283A1F061F63006112E1 /* CustomKeyBoardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomKeyBoardController.m; sourceTree = "<group>"; };
 		0696283D1F0622E3006112E1 /* CustomKeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomKeyBoardView.h; sourceTree = "<group>"; };
@@ -388,10 +397,8 @@
 			children = (
 				061FB40A1EFBA65D00C141F6 /* AppDelegate.h */,
 				061FB40B1EFBA65D00C141F6 /* AppDelegate.m */,
-				0629A37C1EFCEF34001225F1 /* XTViewController.h */,
-				0629A37D1EFCEF34001225F1 /* XTViewController.m */,
-				061FB41E1EFBA88400C141F6 /* TableViewController.h */,
-				061FB41F1EFBA88400C141F6 /* TableViewController.m */,
+				067B796D1F6687D50014064E /* Extension */,
+				067B79651F6687BD0014064E /* Base */,
 				06138BDB1F3306B60065D438 /* WebView */,
 				061C37B11F1F419400B5E62C /* FaceDetector */,
 				06309F651F1DFED400332E3A /* Scan */,
@@ -419,7 +426,6 @@
 				061FB4151EFBA65D00C141F6 /* LaunchScreen.storyboard */,
 				061FB4181EFBA65D00C141F6 /* Info.plist */,
 				061FB4081EFBA65D00C141F6 /* main.m */,
-				061C379B1F1EF52A00B5E62C /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -583,6 +589,31 @@
 				0669C6DE1F46E983005798B3 /* ScanOpenCVController.m */,
 			);
 			path = "MethodTwo-OpenCV";
+			sourceTree = "<group>";
+		};
+		067B79651F6687BD0014064E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				067B79661F6687BD0014064E /* PrefixHeader.pch */,
+				067B79671F6687BD0014064E /* TableViewController.h */,
+				067B79681F6687BD0014064E /* TableViewController.m */,
+				067B79691F6687BD0014064E /* XTViewController.h */,
+				067B796A1F6687BD0014064E /* XTViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		067B796D1F6687D50014064E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				067B796E1F6687E90014064E /* NSString+XT.h */,
+				067B796F1F6687E90014064E /* NSString+XT.m */,
+				067B79711F6688430014064E /* UIView+XT.h */,
+				067B79721F6688430014064E /* UIView+XT.m */,
+				067B79741F668BC90014064E /* UIColor+XT.h */,
+				067B79751F668BC90014064E /* UIColor+XT.m */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		069628381F061F43006112E1 /* CustomKeyBoard */ = {
@@ -950,6 +981,7 @@
 				062FF9171F00EDE000C8F4BD /* SnowAnimationController.m in Sources */,
 				0629A3931EFCF6E9001225F1 /* DismissAnimation.m in Sources */,
 				0669C6DF1F46E983005798B3 /* ScanOpenCVController.m in Sources */,
+				067B79731F6688430014064E /* UIView+XT.m in Sources */,
 				0613E7111F0E0FAA00CD6E5D /* OfoView.m in Sources */,
 				061FB4281EFBBF9D00C141F6 /* HeartbeatController.m in Sources */,
 				0629A3781EFCED7B001225F1 /* PopAnimation.m in Sources */,
@@ -960,31 +992,33 @@
 				062FF91E1F00EEB700C8F4BD /* SnowView.m in Sources */,
 				0613E7141F0E1E2400CD6E5D /* CoreMotionView.m in Sources */,
 				061C37B91F1F419400B5E62C /* FaceDetectorController.m in Sources */,
-				0629A37E1EFCEF34001225F1 /* XTViewController.m in Sources */,
 				062FF9281F01065F00C8F4BD /* DynamicsAnimationController.m in Sources */,
 				0629A39A1EFD052D001225F1 /* PullPictureController.m in Sources */,
 				061FB4091EFBA65D00C141F6 /* main.m in Sources */,
 				06E9D5711F45679600C993C3 /* ScanHomeController.m in Sources */,
 				062FF9251F01010000C8F4BD /* DynamicsController.m in Sources */,
 				06138BDF1F3306E90065D438 /* WebViewController.m in Sources */,
+				067B796B1F6687BD0014064E /* TableViewController.m in Sources */,
 				0629A3961EFCF6FC001225F1 /* PresentAnimation.m in Sources */,
 				06E9D54F1F45444800C993C3 /* CardIO.m in Sources */,
 				0629A3561EFCA221001225F1 /* ScoreController.m in Sources */,
 				0629A3641EFCE23A001225F1 /* TransitionsController.m in Sources */,
 				0629A37B1EFCEDDE001225F1 /* PushAnimation.m in Sources */,
 				06E46DA31F1740B300C17928 /* MessageButton.m in Sources */,
+				067B79701F6687E90014064E /* NSString+XT.m in Sources */,
 				060A6AEA1F4AD62A00648728 /* DTImageManager.m in Sources */,
 				0629A3601EFCB4E8001225F1 /* CircleProgressController.m in Sources */,
+				067B796C1F6687BD0014064E /* XTViewController.m in Sources */,
 				061FB4241EFBBC9000C141F6 /* RadarController.m in Sources */,
 				0629A35D1EFCB4D5001225F1 /* CircleProgressView.m in Sources */,
 				06377C901F1E01FD004AB5BA /* ScanBaseController.m in Sources */,
 				0629A3591EFCA2D2001225F1 /* ScoreView.m in Sources */,
 				06377C941F1E0663004AB5BA /* ScanViewController.m in Sources */,
 				062FF9131F00B5F700C8F4BD /* FilpAnimationController.m in Sources */,
-				061FB4201EFBA88400C141F6 /* TableViewController.m in Sources */,
 				0696283B1F061F64006112E1 /* CustomKeyBoardController.m in Sources */,
 				0629A3741EFCE815001225F1 /* TransitionDetailsController.m in Sources */,
 				061C37B81F1F419400B5E62C /* FaceDetector.m in Sources */,
+				067B79761F668BC90014064E /* UIColor+XT.m in Sources */,
 				06E9D56E1F454BE600C993C3 /* ScanCardIOMethod2Controller.m in Sources */,
 				06D4FF1E1F14734800CAC965 /* LottieAnimationController.m in Sources */,
 				061FB42B1EFBC19C00C141F6 /* HeartView.m in Sources */,
@@ -1108,7 +1142,7 @@
 					"$(PROJECT_DIR)/AnimationDemo/Scan/OpenCV",
 					"$(PROJECT_DIR)/AnimationDemo/Scan/MethodTwo-OpenCV/OpenCV",
 				);
-				GCC_PREFIX_HEADER = "$(SRCROOT)/AnimationDemo/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AnimationDemo/Base/PrefixHeader.pch";
 				INFOPLIST_FILE = AnimationDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1143,7 +1177,7 @@
 					"$(PROJECT_DIR)/AnimationDemo/Scan/OpenCV",
 					"$(PROJECT_DIR)/AnimationDemo/Scan/MethodTwo-OpenCV/OpenCV",
 				);
-				GCC_PREFIX_HEADER = "$(SRCROOT)/AnimationDemo/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AnimationDemo/Base/PrefixHeader.pch";
 				INFOPLIST_FILE = AnimationDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

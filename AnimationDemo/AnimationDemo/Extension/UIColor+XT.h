@@ -10,4 +10,12 @@
 
 @interface UIColor (XT)
 
++ (UIColor *)fromHexValue:(NSUInteger)hex;
++ (UIColor *)fromHexValue:(NSUInteger)hex alpha:(CGFloat)alpha;
+
++ (UIColor *)fromShortHexValue:(NSUInteger)hex;
++ (UIColor *)fromShortHexValue:(NSUInteger)hex alpha:(CGFloat)alpha;
+
++ (UIColor *)colorHexString:(NSString *)hex;
+
 @end

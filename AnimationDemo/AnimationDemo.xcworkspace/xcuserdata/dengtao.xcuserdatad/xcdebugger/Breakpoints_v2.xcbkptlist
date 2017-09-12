@@ -31,22 +31,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "AnimationDemo/CustomKeyBoard/CustomKeyBoardController.m"
-            timestampString = "522820215.921813"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "-viewDidLoad"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "AnimationDemo/WebView/WebViewController.m"
             timestampString = "523506716.24477"
             startingColumnNumber = "9223372036854775807"
@@ -159,22 +143,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "AnimationDemo/AppDelegate.m"
-            timestampString = "523961618.991102"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
-            landmarkName = "displayStatusChanged()"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "AnimationDemo/Scan/MethodOne-CardIO/ScanCardIOMethod2Controller.m"
             timestampString = "524740091.684325"
             startingColumnNumber = "9223372036854775807"
@@ -182,22 +150,6 @@
             startingLineNumber = "24"
             endingLineNumber = "24"
             landmarkName = "-viewDidLoad"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AnimationDemo/Scan/MethodTwo-OpenCV/ScanOpenCVController.m"
-            timestampString = "525003017.281524"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "-sureAction:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

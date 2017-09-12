@@ -13,6 +13,52 @@
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
 #import "SVProgressHUD.h"
+#import "NSString+XT.h"
+#import "UIView+XT.h"
+#import "UIColor+XT.h"
+
+
+#pragma mark - App Color
+
+#define kJXRGBColor(r, g, b) ([UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:1])
+#define kJXRGBAColor(r, g, b, a) ([UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:(a)])
+
+#define kJXColorHexString(s)     [UIColor colorHexString:s]
+
+#define kJXColorMainBlue        [UIColor colorHexString:@"00aaff"]//状态栏、导航栏底色、标签栏icon选中效果 | 选中状态字体颜色
+#define kJXColorMainRed         [UIColor colorHexString:@"ff4040"]//用于“删除"等按钮颜色 | 用于警告状态字体
+#define kJXColorMainYellow      [UIColor colorHexString:@"fe9002"]//用于“立即购买、支付、体现"等高度警示按钮颜色
+
+#define kJXColorMainWhite       [UIColor colorHexString:@"ffffff"]//用于内容区域底色
+#define kJXColorBackGround      [UIColor colorHexString:@"f2f2f2"]//用于空白区域或内容隔断背景色
+#define kJXColorLine            [UIColor colorHexString:@"dddddd"]//用于区域划分的线条颜色
+#define kJXColorNotClick        [UIColor colorHexString:@"cccccc"]//用于边框色或不可点击效果的颜色
+
+
+#define kJXColorTextBlack        [UIColor colorHexString:@"333333"]//用于导航栏、重要标题、正文内容等字体颜色
+#define kJXColorTextSubBlack     [UIColor colorHexString:@"666666"]//用于辅助类文字
+#define kJXColorTextGray         [UIColor colorHexString:@"999999"]//用于辅助类文字、icon未选中状态
+#define kJXColorTextSubGray      [UIColor colorHexString:@"999999"]//用于框内等提示性文字颜色
+
+
+#pragma mark - Font
+
+#define kJXFont(s)               [UIFont systemFontOfSize:s]
+#define kJXBFont(s)              [UIFont boldSystemFontOfSize:s]
+
+#define kJXFontNavgation        [UIFont systemFontOfSize:18]   //导航栏
+#define kJXFontTitle            [UIFont systemFontOfSize:16]   //二级导航栏、重要标题等
+#define kJXFontNormal           [UIFont systemFontOfSize:14]   //正文内容 | 搜索文字大小
+#define kJXFontTags             [UIFont systemFontOfSize:12]   //辅助类、标签栏文字
+#define kJXFontSmaller          [UIFont systemFontOfSize:11]   //电池电量条文字
+#define kJXFontMin              [UIFont systemFontOfSize:10]   //最小文字
+
+#pragma mark - other
+
+#define kWeakObject(object) __weak __typeof(object) weakObject = object;
+#undef	BLOCK
+#define BLOCK(block)                        if(block)block
+
 
 
 #endif /* PrefixHeader_pch */
